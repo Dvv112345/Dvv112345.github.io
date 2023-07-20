@@ -1,0 +1,110 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+body {
+  font-size: calc(5px + 0.5vw);
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("img/code.jpg");  
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 56px;
+  border-radius: 0;
+  margin-bottom: 5%;
+}
+
+.hero-text {
+  color: lightgray;
+  text-align: center;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 20%;
+}
+
+#headshot {
+  width: 30%;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 10%;
+  border: 2px solid #84A7A1;
+  margin-bottom: 0;
+}
+
+.hero-text h1 {
+  font-size: 5em;
+  font-family: 'Tsukimi Rounded', sans-serif;
+}
+
+.hero-text p {
+  font-size: 3em;
+  font-family: 'Slackside One', cursive;
+}
+
+footer {
+  background-color: lightgray;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav .container-fluid{
+  font-size: 3em;
+  font-family: 'Raleway', sans-serif;
+}
+
+nav i {
+  font-size: calc(8px + 2vw);
+}
+
+.nav-link {
+  padding-left: 1vw !important;
+  padding-right: 1vw !important;
+}
+
+.container p {
+  font-size: 3em;
+  font-family: 'Diphylleia', serif;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 4em;
+}
+
+.navbar {
+  background-color: #e3f2fd;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card {
+  border-style: none;
+}
+
+.target {
+  position:relative;
+  top: -100px;
+}
+
+img {
+  width: 100%;
+}
+
+#contact-section img:hover {
+  opacity:0.4;
+  transition: 0.5s;
+}
+
+.carousel-item img {
+  height: 80vh;
+  object-fit: cover;
+  object-position: center;
+}
