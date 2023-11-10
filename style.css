@@ -4,13 +4,16 @@ body {
   font-size: calc(5px + 0.5vw);
 }
 
+.firstLine {
+  padding-top: 10%;
+}
+
 .hero {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("img/code.jpg");  
   background-size: cover;
   background-position: center;
   margin: 0;
   padding: 0;
-  padding-top: 56px;
   border-radius: 0;
   margin-bottom: 5%;
 }
@@ -64,10 +67,16 @@ nav i {
 .nav-link {
   padding-left: 1vw !important;
   padding-right: 1vw !important;
+  color: grey;
 }
 
 .container p {
   font-size: 3em;
+  font-family: 'Diphylleia', serif;
+}
+
+li {
+  font-size: 2em;
   font-family: 'Diphylleia', serif;
 }
 
@@ -81,18 +90,15 @@ h2 {
   background-color: #e3f2fd;
 }
 
-.card-text {
+p.card-text {
   text-align: center;
+  font-size: 2em;
 }
 
 .card {
   border-style: none;
 }
 
-.target {
-  position:relative;
-  top: -100px;
-}
 
 img {
   width: 100%;
@@ -108,3 +114,9 @@ img {
   object-fit: cover;
   object-position: center;
 }
+
+.target {
+  position:relative;
+  top: -100px;
+}
+
