@@ -120,3 +120,24 @@ img {
   top: -100px;
 }
 
+/* .skillIcon:hover {
+  transform: rotate(360deg);
+  transition-duration: 1s;
+} */
+
+@media (hover) and (prefers-reduced-motion:no-preference) {
+  .skillIcon:hover {
+    transform: rotate(360deg);
+    transition-duration: 1.5s;
+  }
+}
+
+@media (hover) {
+  a:hover {
+    opacity: 50%;
+  }
+}
+
+a:focus {
+  opacity: 50%;
+}
