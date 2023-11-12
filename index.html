@@ -18,7 +18,7 @@
   <body data-bs-spy="scroll" data-bs-target="#navbar">
     <nav class="navbar navbar-expand-md fixed-top" id="navbar">
       <div class="container-fluid">
-        <a href="./index.html" class="navbar-brand">
+        <a href="./index.html#hero-section" class="navbar-brand">
           <i class="bi bi-house-door"></i>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-collapse" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,6 +27,7 @@
         <div class="collapse navbar-collapse" id="nav-collapse">
           <div class="navbar-nav ms-auto">
             <a href="./index.html#experience-target" class="nav-link">Experience</a>
+            <a href="./index.html#projects-target" class="nav-link">Projects</a>
             <a href="./index.html#skills-target" class="nav-link">Skills</a>
             <a href="./index.html#hobbies-target" class="nav-link">Hobbies</a>
             <a href="#contact-target" class="nav-link">Contact</a>
@@ -55,20 +56,21 @@
       <div class="container">
         <div class="row">
           <div class="col-12 d-flex justify-content-center">
-            <p>Here is my Resume and Github</p>
+            <h3>Here is my Resume and Github Repositories</h3>
           </div>
         </div>
         <div class="row pb-2">
-          <div class="col-md-1"></div>
-          <div class="col-md-4">
+          <div class="col-2 col-md-1"></div>
+          <div class="col-8 col-md-4">
             <div class="mx-auto col-3 mt-3">
               <a href="static/Resume.pdf" target="_blank">
-              <img src="img/file.svg" alt="Github icon" alt="File icon"/>
+              <img src="img/file.svg" alt="File icon"/>
               </a>
             </div>
           </div>
-          <div class="col-md-2"></div>
-          <div class="col-md-4">
+          <div class="col-2 col-md-1"></div>
+          <div class="col-2 col-md-1"></div>
+          <div class="col-8 col-md-4">
             <div class="mx-auto col-3 mt-3">
               <a href="https://github.com/Dvv112345?tab=repositories" target="_blank">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github icon"/>
@@ -94,7 +96,7 @@
           </div>
           <hr>
         </div>
-          <div class="row">
+        <div class="row">
             <div class="col-md-4 my-auto d-flex justify-content-center">
                 <img src="img/Robosub.jpg" class="w-100 py-1">
             </div>
@@ -106,11 +108,105 @@
                 <li>Maintained good communication to ensure tasks are finished on time</li>
               </ul>
             </div>
-      </div>
+        </div>
         <hr>
       </div>
   	</section>
-  
+
+    <!-- Project section -->
+    <section id="projects-section">
+      <div id="projects-target" class="target"></div>
+      <h2>Projects</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-2 ">
+            <div class="mx-auto col-8 col-md-6 mt-3">
+              <a href="https://github.com/Dvv112345/AdvPatch" target="_blank">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github icon"/>
+              </a>
+            </div>
+          </div>
+          <div class="col-8 my-auto">
+            <h3>AdvPatch</h3>
+            <p>
+              A Python program that uses machine learning to generate a patch that can hide people from object detector.
+              <br>
+              There is also a web interface built with Flask to make the program simple to use. 
+            </p>
+          </div>
+          <hr>        
+        </div>
+        <div class="row">
+          <div class="col-2 ">
+            <div class="mx-auto col-8 col-md-6 mt-3">
+              <a href="https://github.com/Dvv112345/AirTicket" target="_blank">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github icon"/>
+              </a>
+            </div>
+          </div>
+          <div class="col-8 my-auto">
+            <h3>AirTicket</h3>
+            <p>
+              A web application for selling air tickets built using HTML, CSS, Javascript, SQL and Python Flask.
+              <br>
+              <br>
+              Functionalities for customers:
+            </p>
+              <ul>
+                <li>Search for flights and purchase tickets</li>
+                <li>Cancel tickets</li>
+                <li>Check flight status</li>
+                <li>View their past and future flights</li>
+                <li>Give ratings and comments for previous flights</li>
+                <li>Track spendings</li>
+              </ul>
+            <p>
+              Functionalities for staff:
+              <ul>
+                <li>Add flights, airplanes, and airports</li>
+                <li>Change flight status</li>
+                <li>View flight ratings and comments</li>
+                <li>View frequent customers</li>
+                <li>View revenue report</li>
+              </ul>
+            </p>
+          </div>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="col-2 ">
+            <div class="mx-auto col-8 col-md-6 mt-3">
+              <a href="https://github.com/Dvv112345/TicTacToe_RL" target="_blank">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github icon"/>
+              </a>
+            </div>
+          </div>
+          <div class="col-8 my-auto">
+            <h3>TicTacToe</h3>
+            <p>
+            A C program that uses reinforcement learning to learn how to play TicTacToe.
+            </p>
+          </div>
+          <hr>        
+        </div>
+        <div class="row">
+          <div class="col-2 ">
+            <div class="mx-auto col-8 col-md-6 mt-3">
+              <a href="https://github.com/Dvv112345/Sudoku" target="_blank">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github icon"/>
+              </a>
+            </div>
+          </div>
+          <div class="col-8 my-auto">
+            <h3>Sudoku</h3>
+            <p>
+            A C program that uses AC-3 algorithm to solve the constraint satisfaction problem presented by Soduko puzzle.
+            </p>
+          </div>
+          <hr>        
+        </div>
+  	</section>
+
     <!-- Skills section -->
     <section id="skills-section">
       <div id="skills-target" class="target"></div>
