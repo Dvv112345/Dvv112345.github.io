@@ -141,3 +141,7 @@ img {
 a:focus {
   opacity: 50%;
 }
+
+.ps {
+  font-size: small;
+}
